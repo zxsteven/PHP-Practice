@@ -1,5 +1,7 @@
 <?php
 
-echo "This is PHP";
+$test = "I'm a variable";
+
+echo $test;
 
 ?>
