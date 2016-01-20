@@ -1,14 +1,15 @@
 <?php
 
-$number = 1;
-$twoNumber = 2;
-$nextNumber = 2;
+$array = array("cat", "dog", "turtle", "kangaroo");
+	 	
+foreach ($array as $key => $value) {
+	 	
+	echo "Key: $key Value: $value <br />";
+	 	
+};
 
-if ($nextNumber === $twoNumber OR $number === $nextNumber) {
-	echo "true";
-} else {
-	echo "false";
-}
+for ($i=0; $i < 10 ; $i++) { 
+	echo $i.'<br />';
+};
 
-$
 ?>
