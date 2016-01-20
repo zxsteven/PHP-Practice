@@ -1,7 +1,13 @@
 <?php
 
-$test = "I'm a variable";
+$number = 1;
+$twoNumber = 2;
+$nextNumber = 2;
 
-echo $test;
+if ($nextNumber === $twoNumber OR $number === $nextNumber) {
+	echo "true";
+} else {
+	echo "false";
+}
 
 ?>
