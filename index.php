@@ -10,4 +10,5 @@ if ($nextNumber === $twoNumber OR $number === $nextNumber) {
 	echo "false";
 }
 
+$
 ?>
